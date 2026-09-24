@@ -1,4 +1,4 @@
-﻿# Objetivo 2: Laboratorios
+# Objetivo 2: Laboratorios
 
 ## Descripción
 - 
