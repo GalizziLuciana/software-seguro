@@ -1,0 +1,13 @@
+# Nmap 7.991 scan initiated Thu Oct 15 17:58:37 2026 as: nmap -sV -T2 --top-ports 100 --max-rate 2 -oN resultado_nmap.txt www.vinted.com
+Nmap scan report for www.vinted.com (172.66.2.216)
+Host is up (0.0059s latency).
+Other addresses for www.vinted.com (not scanned): 162.159.142.220 2606:4700:7::2cf 2a06:98c1:58::2cf
+Not shown: 96 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+443/tcp  open  ssl/http Cloudflare http proxy
+8080/tcp open  http     Cloudflare http proxy
+8443/tcp open  ssl/http Cloudflare http proxy
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 15 18:01:49 2026 -- 1 IP address (1 host up) scanned in 192.82 seconds
