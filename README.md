@@ -26,18 +26,29 @@ software-seguro/
 │   │   └── objetivo_2_escaneo_de_red.md
 │   └── Objetivo_3_Reconocimiento_Cotidiano/
 │       └── objetivo_3_reconocimiento_cotidiano.md
-└── Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/
-    ├── Objetivo_1_Estandarizacion_de_Vulnerabilidades/
-    │   └── objetivo_1_estandarizacion_de_vulnerabilidades.md
-    ├── Objetivo_2_Analisis_Triada_CIA/
-    │   └── objetivo_2_analisis_triada_cia.md
-    ├── Objetivo_3_Plantilla_Base_de_Reporte/
-    │   ├── objetivo_3_plantilla_base_de_reporte.md
-    │   └── plantilla_reporte.md
-    └── Objetivo_4_Primer_Reporte_Tecnico/
-        ├── objetivo_4_primer_reporte_tecnico.md
-        ├── evidencia_403.png
-        └── evidencia_404.png
+├── Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/
+│   ├── Objetivo_1_Estandarizacion_de_Vulnerabilidades/
+│   │   └── objetivo_1_estandarizacion_de_vulnerabilidades.md
+│   ├── Objetivo_2_Analisis_Triada_CIA/
+│   │   └── objetivo_2_analisis_triada_cia.md
+│   ├── Objetivo_3_Plantilla_Base_de_Reporte/
+│   │   ├── objetivo_3_plantilla_base_de_reporte.md
+│   │   └── plantilla_reporte.md
+│   └── Objetivo_4_Primer_Reporte_Tecnico/
+│       ├── objetivo_4_primer_reporte_tecnico.md
+│       ├── evidencia_403.png
+│       └── evidencia_404.png
+└── Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/
+    ├── Objetivo_1_Caza_Pasiva_de_Configuraciones_Inseguras/
+    │   ├── objetivo_1_caza_pasiva_de_configuraciones_inseguras.md
+    │   ├── objetivo_1_caza_pasiva.pdf
+    │   └── evidencia_*.png
+    ├── Objetivo_2_Laboratorio_Asistencia/
+    │   └── objetivo_2_laboratorio_asistencia.md
+    ├── Objetivo_3_Directory_Listing/
+    │   └── objetivo_3_directory_listing.md
+    └── Objetivo_4_Manejo_Inseguro_de_Errores/
+        └── objetivo_4_manejo_inseguro_de_errores.md
 ```
 
 ---
@@ -67,3 +78,10 @@ software-seguro/
 - [Objetivo 2 - Análisis de la Triada CIA](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_2_Analisis_Triada_CIA/objetivo_2_analisis_triada_cia.md).
 - [Objetivo 3 - Armado de Plantilla Base de Reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/objetivo_3_plantilla_base_de_reporte.md). Incluye la [plantilla de reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/plantilla_reporte.md).
 - [Objetivo 4 - Primer Reporte Técnico Oficial](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_4_Primer_Reporte_Tecnico/objetivo_4_primer_reporte_tecnico.md).
+
+#### Reporte y Brechas: Errores de Configuración (Security Misconfiguration)
+
+- [Objetivo 1 - Caza Pasiva de Configuraciones Inseguras](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_1_Caza_Pasiva_de_Configuraciones_Inseguras/objetivo_1_caza_pasiva_de_configuraciones_inseguras.md).
+- [Objetivo 2 - Laboratorio Asistencia](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_2_Laboratorio_Asistencia/objetivo_2_laboratorio_asistencia.md).
+- [Objetivo 3 - Peligros del Directory Listing](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_3_Directory_Listing/objetivo_3_directory_listing.md).
+- [Objetivo 4 - Manejo Inseguro de Errores (Stack Traces)](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_4_Manejo_Inseguro_de_Errores/objetivo_4_manejo_inseguro_de_errores.md).
