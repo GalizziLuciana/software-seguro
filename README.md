@@ -40,17 +40,27 @@ software-seguro/
 │       ├── objetivo_4_primer_reporte_tecnico.pdf
 │       ├── evidencia_403.png
 │       └── evidencia_404.png
-└── Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/
-    ├── Objetivo_1_Caza_Pasiva_de_Configuraciones_Inseguras/
-    │   ├── objetivo_1_caza_pasiva_de_configuraciones_inseguras.md
-    │   ├── objetivo_1_caza_pasiva.pdf
-    │   └── evidencia_*.png
-    ├── Objetivo_2_Laboratorio_Asistencia/
-    │   └── objetivo_2_laboratorio_asistencia.md
-    ├── Objetivo_3_Directory_Listing/
-    │   └── objetivo_3_directory_listing.md
-    └── Objetivo_4_Manejo_Inseguro_de_Errores/
-        └── objetivo_4_manejo_inseguro_de_errores.md
+├── Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/
+│   ├── Objetivo_1_Caza_Pasiva_de_Configuraciones_Inseguras/
+│   │   ├── objetivo_1_caza_pasiva_de_configuraciones_inseguras.md
+│   │   ├── objetivo_1_caza_pasiva.pdf
+│   │   └── evidencia_*.png
+│   ├── Objetivo_2_Laboratorio_Asistencia/
+│   │   └── objetivo_2_laboratorio_asistencia.md
+│   ├── Objetivo_3_Directory_Listing/
+│   │   └── objetivo_3_directory_listing.md
+│   └── Objetivo_4_Manejo_Inseguro_de_Errores/
+│       └── objetivo_4_manejo_inseguro_de_errores.md
+└── Modulo_II_Reporte_y_Brechas_Gestión_de_Sesiones_Autenticación_y_Control_de_Acceso/
+    ├── Objetivo_1_Auditoria_de_Cookies/
+    │   └── objetivo_1_auditoria_de_cookies.md
+    ├── Objetivo_2_Ingenieria_Inversa_JWT/
+    │   ├── objetivo_2_ingenieria_inversa_jwt.md
+    │   └── evidencia_token_local_storage.png
+    ├── Objetivo_3_Laboratorios/
+    │   └── objetivo_3_laboratorios.md
+    └── Objetivo_4_Ataque_Algoritmo_None/
+        └── objetivo_4_ataque_algoritmo_none.md
 ```
 
 ---
@@ -87,3 +97,10 @@ software-seguro/
 - [Objetivo 2 - Laboratorio Asistencia](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_2_Laboratorio_Asistencia/objetivo_2_laboratorio_asistencia.md).
 - [Objetivo 3 - Peligros del Directory Listing](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_3_Directory_Listing/objetivo_3_directory_listing.md).
 - [Objetivo 4 - Manejo Inseguro de Errores (Stack Traces)](Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/Objetivo_4_Manejo_Inseguro_de_Errores/objetivo_4_manejo_inseguro_de_errores.md).
+
+#### Reporte y Brechas: Gestión de Sesiones, Autenticación y Control de Acceso
+
+- [Objetivo 1 - Auditoría de Cookies y Banderas de Seguridad](Modulo_II_Reporte_y_Brechas_Gestión_de_Sesiones_Autenticación_y_Control_de_Acceso/Objetivo_1_Auditoria_de_Cookies/objetivo_1_auditoria_de_cookies.md).
+- [Objetivo 2 - Ingeniería Inversa a JSON Web Tokens (JWT)](Modulo_II_Reporte_y_Brechas_Gestión_de_Sesiones_Autenticación_y_Control_de_Acceso/Objetivo_2_Ingenieria_Inversa_JWT/objetivo_2_ingenieria_inversa_jwt.md).
+- [Objetivo 3 - Ejecución de los Laboratorios](Modulo_II_Reporte_y_Brechas_Gestión_de_Sesiones_Autenticación_y_Control_de_Acceso/Objetivo_3_Laboratorios/objetivo_3_laboratorios.md).
+- [Objetivo 4 - Análisis del Ataque de Algoritmo "None"](Modulo_II_Reporte_y_Brechas_Gestión_de_Sesiones_Autenticación_y_Control_de_Acceso/Objetivo_4_Ataque_Algoritmo_None/objetivo_4_ataque_algoritmo_none.md).
