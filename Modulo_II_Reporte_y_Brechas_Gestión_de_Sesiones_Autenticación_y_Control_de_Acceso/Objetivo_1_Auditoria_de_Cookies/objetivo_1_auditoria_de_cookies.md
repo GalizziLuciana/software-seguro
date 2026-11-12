@@ -8,37 +8,43 @@ Para revisarlas hay que iniciar sesión en el sitio, abrir las herramientas de d
 
 ## Desarrollo
 
-### Sitio 1: [nombre del sitio]
+Analicé la cookie de sesión de LinkedIn, GitLab y GitHub. En las capturas tapé la columna *Value*, porque con ese valor cualquiera podría entrar a la cuenta sin la contraseña.
 
-| Cookie | ¿Es de sesión? | HttpOnly | Secure | SameSite | Expira |
-| --- | --- | --- | --- | --- | --- |
-| [nombre] | [Sí / No] | [✅ / ❌] | [✅ / ❌] | [Strict / Lax / None / vacío] | [fecha o "Session"] |
+### Sitio 1: LinkedIn
 
-![Cookies de [sitio 1]](./evidencia_sitio_1.png)
+La cookie de sesión es `li_at`.
 
-**Observaciones:** [¿La cookie de sesión tiene las tres banderas? ¿Falta alguna?]
+| Cookie | HttpOnly | Secure | SameSite | Expira |
+| --- | --- | --- | --- | --- |
+| `li_at` | ✅ | ✅ | None | 2027 (persistente) |
 
-### Sitio 2: [nombre del sitio]
+![Cookies de LinkedIn](./evidencia_linkedin.png)
 
-| Cookie | ¿Es de sesión? | HttpOnly | Secure | SameSite | Expira |
-| --- | --- | --- | --- | --- | --- |
-| [nombre] | [Sí / No] | [✅ / ❌] | [✅ / ❌] | [Strict / Lax / None / vacío] | [fecha o "Session"] |
+Tiene las dos banderas importantes: `HttpOnly` y `Secure`. El `SameSite` en `None` significa que la cookie también se manda en pedidos que vienen desde otros sitios, algo que LinkedIn usa para sus botones y widgets embebidos. Como está permitido solo junto con `Secure`, no viaja sin cifrar. Es una cookie persistente (vence en 2027), que es lo que mantiene la sesión abierta aunque cierres el navegador.
 
-![Cookies de [sitio 2]](./evidencia_sitio_2.png)
+### Sitio 2: GitLab
 
-**Observaciones:** [...]
+La cookie de sesión es `_gitlab_session`.
 
-### Sitio 3: [nombre del sitio]
+| Cookie | HttpOnly | Secure | SameSite | Expira |
+| --- | --- | --- | --- | --- |
+| `_gitlab_session` | ✅ | ✅ | None | Session |
 
-| Cookie | ¿Es de sesión? | HttpOnly | Secure | SameSite | Expira |
-| --- | --- | --- | --- | --- | --- |
-| [nombre] | [Sí / No] | [✅ / ❌] | [✅ / ❌] | [Strict / Lax / None / vacío] | [fecha o "Session"] |
+![Cookies de GitLab](./evidencia_gitlab.png)
 
-![Cookies de [sitio 3]](./evidencia_sitio_3.png)
+También tiene `HttpOnly` y `Secure`, y el `SameSite` en `None`. A diferencia de la de LinkedIn, en Expires dice `Session`: es una cookie de sesión pura, que el navegador borra al cerrarse.
 
-**Observaciones:** [...]
+### Sitio 3: GitHub
 
-> No publicar el valor de las cookies de sesión: con ese valor cualquiera puede entrar a la cuenta. En las capturas, tapar la columna *Value*.
+La cookie de sesión es `user_session`.
+
+| Cookie | HttpOnly | Secure | SameSite | Expira |
+| --- | --- | --- | --- | --- |
+| `user_session` | ✅ | ✅ | Lax | Session |
+
+![Cookies de GitHub](./evidencia_github.png)
+
+Tiene `HttpOnly` y `Secure` igual que las otras dos, pero el `SameSite` está en `Lax` en lugar de `None`. `Lax` es más restrictivo: la cookie no se manda en pedidos que llegan desde otro sitio (salvo al navegar directo al link), lo que da algo más de protección contra CSRF. Se ve además que GitHub usa una segunda cookie, `__Host-user_session_same_site`, con `SameSite` en `Strict`.
 
 ### ¿Qué protege la bandera HttpOnly?
 
@@ -56,4 +62,6 @@ El riesgo es que le secuestren la sesión. Alguien que esté en la misma red, po
 
 ## Conclusiones
 
-[Resumen de los tres sitios: cuáles protegen bien su cookie de sesión y cuáles no, y qué bandera faltaba.]
+Los tres sitios protegen bien su cookie de sesión: las tres tienen `HttpOnly` y `Secure`, así que el JavaScript no las puede leer y solo viajan por HTTPS. La diferencia está en el `SameSite`: LinkedIn y GitLab lo tienen en `None`, mientras que GitHub usa `Lax`, que es un poco más estricto frente a CSRF.
+
+Son sitios grandes, así que era esperable que estuvieran bien configurados. La bandera que no aparece en ninguno es un `SameSite` más cerrado para la cookie principal, aunque en los tres casos es una decisión y no un descuido: LinkedIn y GitLab necesitan `None` para funcionar embebidos en otros sitios, y GitHub compensa con una segunda cookie en `Strict`.
