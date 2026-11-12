@@ -32,9 +32,12 @@ software-seguro/
     ├── Objetivo_2_Analisis_Triada_CIA/
     │   └── objetivo_2_analisis_triada_cia.md
     ├── Objetivo_3_Plantilla_Base_de_Reporte/
-    │   └── objetivo_3_plantilla_base_de_reporte.md
+    │   ├── objetivo_3_plantilla_base_de_reporte.md
+    │   └── plantilla_reporte.md
     └── Objetivo_4_Primer_Reporte_Tecnico/
-        └── objetivo_4_primer_reporte_tecnico.md
+        ├── objetivo_4_primer_reporte_tecnico.md
+        ├── evidencia_403.png
+        └── evidencia_404.png
 ```
 
 ---
@@ -62,5 +65,5 @@ software-seguro/
 
 - [Objetivo 1 - Estandarización de Vulnerabilidades (CVE y CWE)](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_1_Estandarizacion_de_Vulnerabilidades/objetivo_1_estandarizacion_de_vulnerabilidades.md).
 - [Objetivo 2 - Análisis de la Triada CIA](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_2_Analisis_Triada_CIA/objetivo_2_analisis_triada_cia.md).
-- [Objetivo 3 - Armado de Plantilla Base de Reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/objetivo_3_plantilla_base_de_reporte.md).
+- [Objetivo 3 - Armado de Plantilla Base de Reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/objetivo_3_plantilla_base_de_reporte.md). Incluye la [plantilla de reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/plantilla_reporte.md).
 - [Objetivo 4 - Primer Reporte Técnico Oficial](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_4_Primer_Reporte_Tecnico/objetivo_4_primer_reporte_tecnico.md).
