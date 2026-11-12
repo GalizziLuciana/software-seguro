@@ -36,6 +36,7 @@ software-seguro/
 │   │   └── plantilla_reporte.md
 │   └── Objetivo_4_Primer_Reporte_Tecnico/
 │       ├── objetivo_4_primer_reporte_tecnico.md
+│       ├── objetivo_4_primer_reporte_tecnico.pdf
 │       ├── evidencia_403.png
 │       └── evidencia_404.png
 └── Modulo_II_Reporte_y_Brechas_Errores_de_Configuración_Security_Misconfiguration/
