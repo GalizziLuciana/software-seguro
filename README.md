@@ -18,7 +18,8 @@ software-seguro/
 │   ├── Objetivo_3_Handshake_TLS/
 │   │   └── objetivo_3_handshake_tls.md
 │   └── Objetivo_4_Instalacion_Proxy/
-│       └── objetivo_4_instalacion_proxy.md
+│       ├── objetivo_4_instalacion_proxy.md
+│       └── captura_intercepcion.png
 ├── Modulo_I_Information_Gathering_y_Reconocimiento/
 │   ├── Objetivo_1_puertos_y_servicios_esenciales/
 │   │   └── objetivo_1_puertos_y_servicios_esenciales.md
