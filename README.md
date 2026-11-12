@@ -19,13 +19,22 @@ software-seguro/
 │   │   └── objetivo_3_handshake_tls.md
 │   └── Objetivo_4_Instalacion_Proxy/
 │       └── objetivo_4_instalacion_proxy.md
-└── Modulo_I_Information_Gathering_y_Reconocimiento/
-    ├── Objetivo_1_puertos_y_servicios_esenciales/
-    │   └── objetivo_1_puertos_y_servicios_esenciales.md
-    ├── Objetivo_2_Escaneo_de_Red/
-    │   └── objetivo_2_escaneo_de_red.md
-    └── Objetivo_3_Reconocimiento_Cotidiano/
-        └── objetivo_3_reconocimiento_cotidiano.md
+├── Modulo_I_Information_Gathering_y_Reconocimiento/
+│   ├── Objetivo_1_puertos_y_servicios_esenciales/
+│   │   └── objetivo_1_puertos_y_servicios_esenciales.md
+│   ├── Objetivo_2_Escaneo_de_Red/
+│   │   └── objetivo_2_escaneo_de_red.md
+│   └── Objetivo_3_Reconocimiento_Cotidiano/
+│       └── objetivo_3_reconocimiento_cotidiano.md
+└── Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/
+    ├── Objetivo_1_Estandarizacion_de_Vulnerabilidades/
+    │   └── objetivo_1_estandarizacion_de_vulnerabilidades.md
+    ├── Objetivo_2_Analisis_Triada_CIA/
+    │   └── objetivo_2_analisis_triada_cia.md
+    ├── Objetivo_3_Plantilla_Base_de_Reporte/
+    │   └── objetivo_3_plantilla_base_de_reporte.md
+    └── Objetivo_4_Primer_Reporte_Tecnico/
+        └── objetivo_4_primer_reporte_tecnico.md
 ```
 
 ---
@@ -46,3 +55,12 @@ software-seguro/
 - [Objetivo 1 - Puertos y servicios esenciales](Modulo_I_Information_Gathering_y_Reconocimiento/Objetivo_1_puertos_y_servicios_esenciales/objetivo_1_puertos_y_servicios_esenciales.md).
 - [Objetivo 2 - Escaneo de Red](Modulo_I_Information_Gathering_y_Reconocimiento/Objetivo_2_Escaneo_de_Red/objetivo_2_escaneo_de_red.md).
 - [Objetivo 3 - Reconocimiento Cotidiano](Modulo_I_Information_Gathering_y_Reconocimiento/Objetivo_3_Reconocimiento_Cotidiano/objetivo_3_reconocimiento_cotidiano.md).
+
+### Módulo II
+
+#### Reporte y Brechas: Metodología de Reporte Profesional y CVSS
+
+- [Objetivo 1 - Estandarización de Vulnerabilidades (CVE y CWE)](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_1_Estandarizacion_de_Vulnerabilidades/objetivo_1_estandarizacion_de_vulnerabilidades.md).
+- [Objetivo 2 - Análisis de la Triada CIA](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_2_Analisis_Triada_CIA/objetivo_2_analisis_triada_cia.md).
+- [Objetivo 3 - Armado de Plantilla Base de Reporte](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_3_Plantilla_Base_de_Reporte/objetivo_3_plantilla_base_de_reporte.md).
+- [Objetivo 4 - Primer Reporte Técnico Oficial](Modulo_II_Reporte_y_Brechas_Metodología_de_Reporte_Profesional_y_CVSS/Objetivo_4_Primer_Reporte_Tecnico/objetivo_4_primer_reporte_tecnico.md).
